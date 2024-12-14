@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #eaeaea;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contracts {
+    padding: 1rem;
+}
+
+.contract {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+
+.contract-info {
+    margin: 0.5rem 0;
+}
+
+.contract-info p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #6c63ff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #5a52e0;
+}
+
+.botao.visualizar {
+    background-color: #4caf50;
+}
+
+.botao.visualizar:hover {
+    background-color: #429c41;
+}
+
+.pagination {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.botao-voltar {
+    display: inline-block;
+}
