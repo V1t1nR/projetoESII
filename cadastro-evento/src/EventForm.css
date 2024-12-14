@@ -1,0 +1,180 @@
+/* Estilos globais e a fonte */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para o corpo da pÃ¡gina */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo geral */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg); /* Imagem de fundo */
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.container {
+    margin-top: 30px; /* Espaçamento entre o header e o formulário */
+}
+
+
+.frame {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #6b63fff1; /* Cor roxa clara */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-left: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+/* Estilos para o cabeÃ§alho */
+header {
+    font-family: "Roboto", sans-serif; /* Usar a fonte Roboto */
+    font-weight: normal;
+    font-size: 17px; /* Tamanho da fonte */
+    background-image: #6c63ff; /* Gradiente de cores de fundo */
+    color: #6c63ff; /* Cor do texto */
+    text-align: left; /* Alinhamento do texto */
+    padding: 20px 0; /* EspaÃ§amento interno */
+    padding-left: 46px; /* EspaÃ§amento Ã  esquerda */
+}
+
+/* Estilos para o formulÃ¡rio */
+form {
+    width: 80%;
+    margin: 30px auto; /* Adiciona um espaçamento superior de 30px */
+    margin: 0 auto; /* Centralizar o formulÃ¡rio horizontalmente */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para os grupos de campos de entrada */
+.form-group {
+    margin-bottom: 20px; /* EspaÃ§amento entre grupos de campos */
+}
+
+/* Estilos para rÃ³tulos de campos */
+label {
+    display: block; /* Colocar cada rÃ³tulo em uma linha separada */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para campos de seleÃ§Ã£o (dropdown) */
+select {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom,#0c3861, #3386d4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Ajuste a altura conforme necessÃ¡rio */
+}
+
+/*Botoes*/
+
+.btn-voltar {
+    margin-left: 20px; /* EspaÃ§amento Ã  esquerda */
+    padding: 10px 20px; /* Estilos de padding para o botÃ£o */
+    background-color: #3567ee;;
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado padrÃ£o de links */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-voltar:hover {
+    background-color: #255aec;
+}
+
+.btn-prox{
+    background-color: #6b63fff1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-prox:hover{
+    background-color: #6057fcf1;
+}
+
+.btn-enviar {
+    background-color: #3567ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-adicionar {
+    background-color: #6b63fff1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-enviar:hover {
+    background-color: #255aec;
+}
+
+main {
+    margin-top: 10vh; /* Adiciona espaço abaixo do cabeçalho fixo */
+    padding: 20px;
+}
