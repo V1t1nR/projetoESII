@@ -94,6 +94,7 @@
         transition: background-color 0.2s ease, transform 0.2s ease;
     }
     
+    
     .extra-buttons .button:hover {
         background-color: #0626f1;
         color: #000000;

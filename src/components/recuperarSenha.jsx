@@ -12,6 +12,7 @@ function RecuperarSenha() {
             email: email,
         };
 
+        
         enviarEmail(usuario);
     };
 

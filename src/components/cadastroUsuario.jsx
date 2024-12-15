@@ -34,6 +34,7 @@ function CadastroUsuario() {
                         "Erro na resposta do servidor: " + response.statusText
                     );
                 }
+                
                 return response.json();
             })
             .then((data) => {
