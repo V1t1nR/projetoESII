@@ -1,0 +1,103 @@
+    body {
+        background-color: #011843;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .area-login {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #042577;
+        border-radius: 10px;
+        width: 355px;
+        height: 320px;
+        padding: 35px;
+    }
+
+    .login form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .login input {
+        margin-top: 10px;
+        background-color: #ffffff;
+        padding-left: 10px;
+        color: #000000;
+        border: none;
+        height: 35px;
+        outline: none;
+        border-radius: 8px;
+    }
+
+    .login img {
+        width: 135px;
+        height: auto;
+    }
+
+    input::placeholder {
+        color: #CBD0F7;
+        font-size: 14px;
+    }
+
+    .login form [type="submit"] {
+        display: block;
+        background-color: #3e99ee;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .login form [type="submit"]:hover {
+        background-color: #0626f1;
+    }
+
+
+    p {
+        color: #CBD0F7;
+    }
+
+    a {
+        color: #5568FE;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .extra-buttons {
+        display: flex;
+        justify-content: space-around; /* Ajusta os botões para ficarem com espaço entre eles */
+        margin-top: 15px;
+        width: 100%; /* Garante que a largura ocupe todo o espaço disponível */
+    }
+    
+    .extra-buttons .button {
+        display: inline-block;
+        text-align: center;
+        padding: 6px 12px; /* Diminui o padding para ajustar o tamanho do botão */
+        background-color: #3e99ee;
+        color: #000000; /* Ajusta o texto para branco */
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 14px; /* Diminui o tamanho do texto */
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    
+    
+    .extra-buttons .button:hover {
+        background-color: #0626f1;
+        color: #000000;
+        transform: scale(1.05); /* Ajusta o hover para um efeito suave */
+        cursor: pointer;
+    }    
