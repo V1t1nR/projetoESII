@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Adicione este estilo para links visitados */
+a:visited {
+    text-decoration: white; /* Remove o sublinhado */
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.frame {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #5da8ee, #0c3861);
+    position: fixed;
+    top: 0;
+    padding-left: 46px;
+}
+
+.frame .text-wrapper {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 44px;
+}
+
+.navbar {
+    height: 12%;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card {
+    width: 350px;
+    height: 380px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(images/evento2.jpg);
+}
+
+.card2 {
+    background-image: url(images/pic-2.jpg);
+}
+
+.card3 {
+    background-image: url(images/pic-3.png);
+    margin: 10px 21%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    font-size: 24px;
+    color: #000000;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
